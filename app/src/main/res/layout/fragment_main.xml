@@ -17,7 +17,18 @@
             android:id="@+id/toolbar"
             android:minHeight="?attr/actionBarSize">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/top_banner_bar" />
         </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/heroes"
+            android:layout_marginTop="15dp"/>
     </LinearLayout>
 
 </FrameLayout>
