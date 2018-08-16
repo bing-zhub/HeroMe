@@ -7,4 +7,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.bing.herome.MainActivity">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Activities.MainActivity">
+
+    </FrameLayout>
+
 </android.support.constraint.ConstraintLayout>

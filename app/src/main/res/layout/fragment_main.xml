@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.bing.herome.Fragments.MainFragment">
+    tools:context="com.example.bing.herome.Fragments.MainFragment"
+    android:background="@drawable/hero_bg_gradient">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -29,6 +30,58 @@
             android:layout_gravity="center"
             android:src="@drawable/heroes"
             android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/heros_btn"
+            android:drawableLeft="@drawable/lightning"
+            android:drawableRight="@drawable/item_selected"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="CAME BY ACCIDENT"
+            android:textColor="#FAC740" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/heros_btn"
+            android:drawableLeft="@drawable/atomic"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="GENETIC MUTATION"
+            android:textColor="#FAC740" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/heros_btn"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="BORN WITH THEM"
+            android:textColor="#FAC740" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="#FAC740"
+            android:text="CHOSE POWERS"
+            android:textSize="30dp"
+            android:textColor="#10161d" />
     </LinearLayout>
 
 </FrameLayout>
